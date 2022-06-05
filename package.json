@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "fs": "^0.0.1-security",
     "nodemon": "^2.0.16",
     "path": "^0.12.7"

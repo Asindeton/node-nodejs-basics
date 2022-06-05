@@ -3,13 +3,13 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const writePathFolder = path.join(__dirname, "files-copy");
+const writePathFolder = path.join(__dirname, "files_copy");
 const readPathFolder = path.join(__dirname, "files");
 
 export const copy = async () => {
   try {
     const files1 = await fs.promises.readdir(__dirname);
-    if (!files1.includes("files-copy")) {
+    if (!files1.includes("files_copy")) {
       await fs.promises.mkdir(writePathFolder);
     } else {
       throw new Error("FS operation failed ");
