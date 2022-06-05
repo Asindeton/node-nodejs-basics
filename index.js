@@ -10,6 +10,8 @@ import { parseArgs } from "./src/cli/args.js";
 
 // import { unknownObject, createMyServer } from "./src/modules/cjsToEsm.mjs";
 
+import { calculateHash } from "./src/hash/calcHash.js";
+
 // create();
 // copy();
 // rename();
@@ -21,3 +23,5 @@ import { parseArgs } from "./src/cli/args.js";
 // parseArgs();
 
 // console.log(createMyServer, unknownObject);
+
+console.log(await calculateHash());
