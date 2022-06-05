@@ -12,6 +12,10 @@ import { parseArgs } from "./src/cli/args.js";
 
 import { calculateHash } from "./src/hash/calcHash.js";
 
+import { read as readStream } from "./src/streams/read.js";
+import { write as writeStream } from "./src/streams/write.js";
+import { transform as transformStream } from "./src/streams/transform.js";
+
 // create();
 // copy();
 // rename();
@@ -24,4 +28,8 @@ import { calculateHash } from "./src/hash/calcHash.js";
 
 // console.log(createMyServer, unknownObject);
 
-console.log(await calculateHash());
+// console.log(await calculateHash());
+
+// readStream();
+// writeStream();
+transformStream();
