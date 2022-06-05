@@ -16,6 +16,8 @@ import { read as readStream } from "./src/streams/read.js";
 import { write as writeStream } from "./src/streams/write.js";
 import { transform as transformStream } from "./src/streams/transform.js";
 
+import { compress } from "./src/zip/compress.js";
+import { decompress } from "./src/zip/decompress.js";
 // create();
 // copy();
 // rename();
@@ -32,4 +34,7 @@ import { transform as transformStream } from "./src/streams/transform.js";
 
 // readStream();
 // writeStream();
-transformStream();
+// transformStream();
+
+compress();
+decompress();

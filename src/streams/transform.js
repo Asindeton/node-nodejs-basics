@@ -13,4 +13,3 @@ const reverseTransform = () => {
 export const transform = async () => {
   process.stdin.pipe(reverseTransform()).pipe(process.stdout);
 };
-ы;
