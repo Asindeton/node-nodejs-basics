@@ -18,6 +18,9 @@ import { transform as transformStream } from "./src/streams/transform.js";
 
 import { compress } from "./src/zip/compress.js";
 import { decompress } from "./src/zip/decompress.js";
+
+import { spawnChildProcess } from "./src/cp/cp.js";
+
 // create();
 // copy();
 // rename();
@@ -36,5 +39,7 @@ import { decompress } from "./src/zip/decompress.js";
 // writeStream();
 // transformStream();
 
-compress();
-decompress();
+// compress();
+// decompress();
+
+// spawnChildProcess();
