@@ -20,6 +20,8 @@ import { compress } from "./src/zip/compress.js";
 import { decompress } from "./src/zip/decompress.js";
 
 import { spawnChildProcess } from "./src/cp/cp.js";
+import { performCalculations } from "./src/wt/main.js";
+import { sendResult } from "./src/wt/worker.js";
 
 // create();
 // copy();
@@ -43,3 +45,6 @@ import { spawnChildProcess } from "./src/cp/cp.js";
 // decompress();
 
 // spawnChildProcess();
+
+// sendResult();
+performCalculations();
