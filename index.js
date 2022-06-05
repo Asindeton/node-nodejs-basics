@@ -8,6 +8,8 @@ import { read } from "./src/fs/read.js";
 import { parseEnv } from "./src/cli/env.js";
 import { parseArgs } from "./src/cli/args.js";
 
+// import { unknownObject, createMyServer } from "./src/modules/cjsToEsm.mjs";
+
 // create();
 // copy();
 // rename();
@@ -16,5 +18,6 @@ import { parseArgs } from "./src/cli/args.js";
 // read();
 
 // parseEnv();
-parseArgs();
-// args.js - implement function that parses command line arguments (given in format --propName value --prop2Name value2, you don't need to validate it) and prints them to the console in the format propName is value, prop2Name is value2
+// parseArgs();
+
+// console.log(createMyServer, unknownObject);
